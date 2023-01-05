@@ -1,7 +1,6 @@
 {
-  "name": "react-web-app-template",
+  "name": "react-app-starter",
   "version": "0.0.0",
-  "private": true,
   "type": "module",
   "scripts": {
     "build": "tsc && vite build",
