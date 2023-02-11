@@ -6,12 +6,14 @@
     "build": "tsc && vite build",
     "dev": "vite",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx --fix --quiet ./",
+    "prettier": "prettier --write .",
     "prepare": "husky install",
     "preview": "vite preview"
   },
   "lint-staged": {
     "*.{js,jsx,tsx,ts}": [
-      "pnpm run lint"
+      "pnpm run lint",
+      "pnpm run prettier"
     ]
   },
   "dependencies": {
